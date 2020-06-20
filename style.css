@@ -1,0 +1,341 @@
+*{
+    margin:0px;
+    padding:10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* p {
+    color: #827f78;
+
+}
+* a {
+    color: #827f78;
+    text-decoration:none;
+    margin:0px;
+    padding:0px;
+}
+
+h1 img {
+    margin:0px;
+    padding:0px;
+}
+        h1 p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:1rem;
+            padding:0px 0 0 55px;
+            margin-top: -100px;
+            
+        }
+h2 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color:#333;
+    font-weight: 400;
+    padding-left:10px;
+        
+            
+        }
+
+h3 {
+    font-size: 1rem;
+    color:#333;
+    font-weight: bold;
+    padding-left:10px;
+
+
+}
+h4 {
+    text-transform: uppercase;
+    color:#827f78;
+    font-weight: 300;
+    font-size: 1rem;
+    padding:20px;
+    text-align: left;
+}
+p.autor {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color:#000;
+}
+.padre {
+    display:flex;
+    flex-flow: column nowrap;
+    margin:0 auto;
+    padding:0px;
+    width:90%;
+    
+
+
+}
+.header {
+    display:flex;
+    flex-flow:column nowrap;
+    margin:0px;
+    padding:0px;
+
+}
+fieldset {
+    border:none;
+}
+.menu {
+    border-bottom:2px solid #e3e3e3;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    margin:0px;
+    padding:0px;
+}
+    .social {
+        order:0;
+        flex:1 1 auto;
+        align-self:auto;
+        margin:0px;
+        padding:0px;
+    }
+        .social ul {
+            display:flex;
+            flex-flow:row wrap;
+            list-style-type: none;
+            margin:0px;
+            padding:0px;
+        }
+        .social ul li {
+            align-items: flex-start;
+            justify-content: initial;
+            margin:0px;
+            padding:0px;
+        }
+        .social ul li a {
+            margin:0px;
+            padding:0px;
+        }
+    .links {
+        order:0;
+        flex:1 1 auto;
+        align-self:auto;
+        margin:0px;
+        padding:0px;
+    }
+            .links ul {
+                display:flex;
+                flex-flow:row wrap;
+                list-style-type: none;
+                margin:0px;
+                padding:0px;
+                justify-content: flex-end;
+            }
+            .links ul li {
+               
+                flex-direction: column;
+                justify-content: center;
+                
+            }
+            .links ul li a {
+                margin:0px;
+                padding:0px;
+                
+            }
+            .vl {
+                color:#827f78;
+            }
+            .links ul li:last-child {
+                margin:0px;
+                padding:0px;
+            }
+           
+    .logo {
+    color:#000;
+    margin-top:-100px;
+    padding:0px;
+
+}
+form {
+    display:flex;
+    justify-content: center;
+    
+
+}
+        
+.seccion {
+    display:flex;
+    padding-top:20px;
+    padding-right:20px;
+    margin:0px;
+    
+
+}
+
+.articulo {
+    padding:10px;
+    margin:0px;
+    width:90%;
+    
+    
+    
+}
+    .articulo ul {
+        list-style-type: none;
+        display:flex;
+        flex-flow: row wrap;
+        padding:20px;
+        margin:0px;
+        align-items: center;
+        justify-content: space-between;
+        
+       
+        
+      
+}
+        .articulo ul li {
+            display:flex;
+            border:2px solid #e4e4e4;
+            width:30%;
+            margin-bottom:40px;
+            padding:10px;
+            
+                     
+    
+}
+.article {
+    display: flex;
+    flex-flow: column nowrap;
+    width:25%;
+    padding:0;
+    margin:0px;
+    
+}
+.article a img {
+    width:100%;
+    text-align:center;
+}
+.aside {
+        padding:10px;
+        margin:0px; 
+        width:35%;  
+        
+    }
+.aside p {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  
+}
+    .recomendaciones {
+        border-top:2px solid #e3e3e3;
+
+    
+    }
+    .recomendaciones ul {
+        list-style-type: none;
+        padding:0px;
+        margin:0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .recomendaciones ul li {
+        padding:0px;
+        margin:0px;
+        width:100px;
+
+
+    }
+    .populares {
+        border-top:2px solid #e3e3e3;
+        padding:10px;
+        margin:0px;    
+
+    }
+    .populares ul {
+        list-style-type: none;
+        padding:0px;
+        margin:0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    }
+    .populares ul li {
+        padding:0px;
+        margin:0px;
+        width:100px;
+        
+    }
+.footer {
+    display:flex;
+    border-top:10px solid #000;
+    margin:0;
+    padding:0px;
+    flex-direction: row;
+}
+.pie {
+    width:100%;
+}
+.pie3 a{
+    
+    color:#fff;
+}
+.pie3 {
+        margin:0px;
+        padding:0px;
+        flex-flow: row wrap;
+        align-items: flex-end;
+        width:100%;
+        justify-content: flex-end;
+       
+}
+.pie3 ul {
+    list-style-type: none;
+    align-content: flex-end;
+    flex-direction: row;
+    display:flex;
+    justify-content: flex-end;
+}
+.pie3 ul li {
+    background-color:#000000;
+    margin:5px;
+    border-radius:5px;
+    
+}
+.pie p {
+font-size: 0.8rem;
+line-height: 0.8rem;
+padding-left:10px;
+margin-left:10px;
+}
+
+@media all and (max-width:800px) {
+    .seccion {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+        height:auto;
+    }
+    .aside {
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        width:100%;
+    }
+}
+@media all and (max-width:600px) {
+    .article {
+        flex-direction: column;
+        flex:1 1 50%;
+    }
+}
+
+@media all and (max-width:400px) {
+    aside {
+     width: 100%;
+       flex-flow:row wrap; 
+    }
+
+}
