@@ -1,0 +1,163 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+* p {
+    color: #827f78;
+    overflow-wrap: normal;
+
+}
+* a {
+    color: #827f78;
+    text-decoration:none;
+    cursor: pointer;
+}
+* a:hover {
+    color: #333333 !important;
+}
+.subtitle{
+        font-family: 'Roboto', sans-serif;
+        font-size:1rem;
+        padding:0px 0 0 20px;      
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color:#333;
+    font-weight: 400;
+    margin-bottom: 1rem; 
+    overflow-wrap: normal;      
+        }
+
+h3 {
+    font-size: 1rem;
+    color:#333;
+    font-weight: bold;
+    overflow-wrap: normal;
+}
+h4 {
+    text-transform: uppercase;
+    color:#827f78;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-left:1rem;
+
+}
+h5 {
+    text-transform: uppercase;
+    color:#827f78;
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+h6 {
+    color:white;
+    font-size: 3em;
+
+}
+p.autor {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color:#000;
+    overflow-wrap: normal;
+}
+.buscador {
+    margin-bottom:50px;
+}
+.menu {
+    border-bottom: 2px solid #827f78;
+
+}
+           
+.logo {
+margin-top:-100px;
+
+} 
+.logo img {
+    margin-top:-20px;
+}
+
+section {
+    margin-top:100px;
+    
+}
+section a:hover {
+    text-decoration: none;
+}
+
+.card-deck {
+    margin-bottom:30px;
+}
+footer {
+    border-top:5px solid black;
+}
+.social a:hover {
+    color:#827f78 !important;
+
+}
+.social {
+    box-sizing: border-box;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .subtitle{
+        padding-left:26px;
+        margin-top:-50px; 
+}
+
+    section {
+        margin-top:50px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .subtitle{
+        padding-left:35px;  
+        margin-top:-50px;     
+}
+
+section {
+    margin-top:50px !important;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 991.98px) {
+    .subtitle{
+        margin-top:-50px; 
+        padding-left:45px;      
+}
+.logo img {
+    margin-top:-50px !important;
+}
+
+ }
+
+@media (min-width: 1200px) and (max-width: 1199.98px) {
+    .subtitle{
+        margin-top:-100px; 
+        padding-left:60px;      
+}
+.logo img {
+    margin-top:-50px !important;
+}
+
+ }
+
+/*Formulario*/
+label {
+    padding: 5px 5px 5px 0px;
+}
+
+
+.carousel-caption p {
+    color: black;
+    font-size: x-large;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+.rating  {
+    color: #c3a855;
+}
+
